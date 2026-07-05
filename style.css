@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;background:#eef9f1;text-align:center}
+.block,.choice,.target{display:inline-flex;align-items:center;justify-content:center;
+width:80px;height:80px;border-radius:12px;background:#d8b27c;border:3px solid #7a5a2a;
+font-size:36px;margin:8px;user-select:none}
+.target{background:#fff3b0}
+.choice{cursor:grab}
+.base{display:flex;justify-content:center;align-items:center;font-size:40px}
