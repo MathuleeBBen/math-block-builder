@@ -13,9 +13,11 @@ blocks.forEach(block => {
         if (value === correctAnswer) {
             score += 10;
             scoreBox.textContent = "⭐ คะแนน : " + score;
-            alert("🎉 ตอบถูก!");
+            document.getElementById("message").textContent =
+"🎉 ถูกต้อง +10 คะแนน";
         } else {
-            alert("❌ ลองอีกครั้ง");
+            document.getElementById("message").textContent =
+"❌ ลองใหม่";
         }
     });
 });
